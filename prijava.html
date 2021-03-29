@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Prijava</title> <!-- naslov -->
+	<link rel="stylesheet" href="prijava-css.css"> <!-- spoj s css-om -->
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> <!-- hrvatska slova -->
+	<script src="prijava-java.js"></script> <!-- java -->
+  </head>
+
+  <body>
+	<div class="red">
+		<div class="stupac">
+			<div class="stupac-lijevo">
+				<img class ="slika" src="prijava-slika.jpeg">
+			</div>
+		<div class="stupac">
+			<div class="stupac-desno">
+				<div id="forma" class="forma">
+					<form action="prijava.php" method="post">
+						<div class="avatar-a">
+							<img src="casino-avatar.png" alt="Avatar" class="avatar">
+						</div>
+
+						<div class="container">
+							<label for="uname"><b>Korisničko ime</b></label>
+							<input type="text" placeholder="Upiši korisničko ime" name="uname" oninvalid="this.setCustomValidity('OBAVEZNO')" oninput="setCustomValidity('')"></input>
+
+							<label for="psw"><b>Lozinka</b></label>
+							<input type="password" placeholder="Upiši svoju lozinku" name="psw" oninvalid="this.setCustomValidity('OBAVEZNO')" oninput="setCustomValidity('')"></input>
+	
+							<button type="submit">Prijava</button>
+							<label>
+								<input type="checkbox" checked="checked" name="remember"> Zapamti me
+							</label>
+						</div>
+
+						<div class="signup">
+							<a href="registracija.php">Registrirajte se!</a>
+						</div>
+
+						<div class="container">
+							<button type="button" id="odustani" class="odustani" onClick="location.href='glavni-ekran.html'">Odustani</button>
+							<button type="button" id="zaboravljena-lozinka" class="zaboravljena-lozinka" onClick="location.href='zaboravljena-lozinka.html'">Zaboravljena lozinka?</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
+
+</html>

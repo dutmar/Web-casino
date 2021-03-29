@@ -1,0 +1,165 @@
+body {
+	background-image: url("igraj-tepih.jpg");
+	background-size: cover;
+}
+
+/* header */
+.header{
+	width: 100%;
+	height: 100px;
+	display: block;
+	background-color: black;
+}
+
+.inner-header{
+	width: 1200px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.logo{
+	margin: -95px;
+	width: 10%;
+	float: left;
+	padding-left:3%;
+}
+
+.navigacija{
+	margin-top: -5px;
+	vertical-align: middle;
+	float: right;
+	height: 100%;
+}
+
+.navigacija a{
+	float: left;
+	height: 100%;
+	display: table;
+	padding: 0px 20px;
+}
+
+.navigacija a li{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	text-shadow: 1px 0px 1px red, -1px 0px 1px red, 0px 1px 1px red, 0px -1px 1px red;
+	font-size: 36px;
+}
+.navigacija a li:hover{
+	color: red;
+}
+/* kraj headera */
+
+/* footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100;
+	background-color: red;
+	color: white;
+	text-align: center;
+	font-size: 10;
+}
+
+.logo-footer{
+	margin-top: -20px;
+}
+
+
+.tekst-footer{
+	margin-top: -30px;
+}
+/* kraj footera */
+
+div.balance {
+	border-style: groove;
+	border-color: yellow;
+	font-size: 32;
+	color: red;
+	position: absolute;
+	left: 88%;
+	top: 3.5%;
+}
+
+#broj {
+	font-size: 80;
+	width: 90;
+	height: 90;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 47%;
+	-ms-transform: translateY(-50%, -50%);
+	transform: translateY(-50%, -50%);
+}
+
+button {
+	position: absolute;
+	text-align: center;
+	font-size: 22;
+	width: 6.5%;
+	height: 5%;
+	color: white;
+	background: black;
+	top: 57%;
+	left: 47%;
+}
+
+.row {
+	margin-top: 10px;
+	display: flex;
+	height: 75%;
+	width: 30%;
+  }
+  
+  .column {
+	flex: 50%;
+  }
+
+.oklade {
+	font-size: 32;
+}
+
+#win {
+	text-align: center;
+	width: 30%;
+	height: 15%;
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	font-size: 48;
+}
+
+.nums {
+	font-size: 22;
+}
+
+.radio {
+	font-size: 32;
+}
+
+.bets1 {
+	position: absolute;
+	width: 8%;
+	height: 20%;
+	top: 35%;
+	left: 13%;
+}
+
+.bets2 {
+	position: absolute;
+	width: 8%;
+	height: 20%;
+	left: 22%;
+	top: 35%;
+}
+
+#reset {
+	width: 6.5%;
+	height: 5%;
+	position: absolute;
+	left: 18%;
+}

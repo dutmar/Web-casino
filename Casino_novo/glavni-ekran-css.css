@@ -1,0 +1,128 @@
+body {
+ background-image: url("glavni-ekran-slika.jpg");
+ background-size: cover;
+}
+
+.naslov{
+	left: 50%;
+	margin-top:50px;
+	padding-left: 33%;
+	text-shadow: 2px 0px 2px black, -2px 0px 2px black, 0px 2px 2px black, 0px -2px 2px black;
+}
+
+.podnaslov{
+	left: 50%;
+	margin-top:-80px;
+	padding-left: 43%;
+	text-shadow: 2px 0px 2px black, -2px 0px 2px black, 0px 2px 2px black, 0px -2px 2px black;
+}
+
+h1{
+	color: white;
+	font-style: center;
+	font-weight: bold;
+	font-size: 100px;
+	position: absolute;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	font-style: center;
+	font-weight: bold;
+	font-size: 50px;
+	position: absolute;
+	text-align: center;
+}
+
+.zaigraj { /* sirina gumba zaigraj*/
+	font-size: 35px;
+    width: 20%;
+	height: 10%;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	cursor: pointer; /* vrsta miša */
+	transition-duration: 0.4s;
+	margin: 0;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+zaigraj:hover {
+  background-color: white; /* pozadina gumba na hover */
+  color: black; /* boja slova na hover */
+  border: 2px solid red;
+}
+
+.o-nama { /* sirina gumba zaigraj*/
+	font-size: 15px;
+    width: 10%;
+	height: 5%;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	cursor: pointer; /* vrsta miša */
+	transition-duration: 0.4s;
+	margin: 0;
+	position: absolute;
+	top: 90%;
+	left: 20%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+o-nama:hover {
+  background-color: black; /* pozadina gumba na hover */
+  color: white; /* boja slova na hover */
+  border: 2px solid red;
+}
+
+.kontakt { /* sirina gumba zaigraj*/
+	font-size: 15px;
+    width: 10%;
+	height: 5%;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	cursor: pointer; /* vrsta miša */
+	transition-duration: 0.4s;
+	margin: 0;
+	position: absolute;
+	top: 90%;
+	left: 80%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+kontakt:hover {
+  background-color: black; /* pozadina gumba na hover */
+  color: white; /* boja slova na hover */
+  border: 2px solid red;
+}
+
+.pravila { /* sirina gumba zaigraj*/
+	font-size: 15px;
+    width: 10%;
+	height: 5%;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	cursor: pointer; /* vrsta miša */
+	transition-duration: 0.4s;
+	margin: 0;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+pravila:hover {
+  background-color: black; /* pozadina gumba na hover */
+  color: white; /* boja slova na hover */
+  border: 2px solid red;
+}

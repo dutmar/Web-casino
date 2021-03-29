@@ -1,0 +1,136 @@
+/* css za cijeli body */
+body {
+	background-image: url("igraj-tepih.jpg");
+	background-size: cover;
+}
+
+/* header */
+.header{
+	width: 100%;
+	height: 100px;
+	display: block;
+	background-color: black;
+}
+
+.inner-header{
+	width: 1200px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.logo{
+	margin: -95px;
+	width: 10%;
+	float: left;
+	padding-left:3%;
+}
+
+.navigacija{
+	margin-top: -5px;
+	vertical-align: middle;
+	float: right;
+	height: 100%;
+}
+
+.navigacija a{
+	float: left;
+	height: 100%;
+	display: table;
+	padding: 0px 20px;
+}
+
+.navigacija a li{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	text-shadow: 1px 0px 1px red, -1px 0px 1px red, 0px 1px 1px red, 0px -1px 1px red;
+	font-size: 36px;
+}
+
+.navigacija a li:hover{
+	color: red;
+}
+/* kraj headera */
+
+
+/* css za h3 */
+h3{
+	color: black;
+	font-size: 30px;
+	text-shadow: 2px 0px 2px white, -2px 0px 2px white, 0px 2px 2px white, 0px -2px 2px white;
+	cursor: pointer;
+}
+
+h3:hover {
+	color: red; /* boja slova na hover */
+}
+
+/* css za h1 */
+h1{
+	color: black;
+	font-size: 50px;
+	text-shadow: 2px 0px 2px white, -2px 0px 2px white, 0px 2px 2px white, 0px -2px 2px white;
+	text-shadow: 1px 0px 1px red, -1px 0px 1px red, 0px 1px 1px red, 0px -1px 1px red;
+}
+
+/* css za class slika */
+.slika{
+	width: 100%;
+	cursor: pointer;
+}
+
+
+
+/* css za class stupac */
+.stupac {
+	padding-top: 5%;
+	padding-left: 2%;
+	float: left;
+	width: 30%;
+	text-align:center;
+	margin: 8px;
+
+}
+
+/* footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100;
+	background-color: red;
+	color: white;
+	text-align: center;
+	font-size: 10;
+}
+
+.logo-footer{
+	margin-top: -20px;
+}
+
+
+.tekst-footer{
+	margin-top: -30px;
+}
+/* kraj footera */
+
+div.balance {
+	border-style: groove;
+	border-color: yellow;
+	font-size: 32;
+	color: red;
+	position: absolute;
+	left: 88%;
+	top: 3.5%;
+}
+
+div.pozdrav {
+	font-size: 25;
+	text-align: center;
+}
+
+div.ostale_igre {
+	font-size: 35;
+	text-align: center;
+}

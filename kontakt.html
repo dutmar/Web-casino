@@ -1,0 +1,46 @@
+<html>
+
+  <head>
+    <title>Pravila</title> <!-- naslov -->
+	<link rel="stylesheet" href="kontakt-css.css"> <!-- spoj s css-om -->
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> <!-- hrvatska slova -->
+	<script>
+			function goBack() { <!-- povratak korak unazad -->
+			window.history.back();
+			}
+	</script>
+  </head>
+
+  <body>
+		<div class="povratak">
+			<button type="button" id="glavni-ekran" class="glavni-ekran" onclick="goBack()">Povratak</button>
+		</div>
+		<div class="kontakt">
+		<p class="kontakt">
+			<h3>Kontakt</h3>
+				<div class="container">
+					<form action="/action_page.php">
+						<label for="ime">Vaše ime:</label>
+						<input type="text" id="ime" name="ime" placeholder="npr. Ivan">
+
+						<label for="prezime">Vaše prezime:</label>
+						<input type="text" id="prezime" name="prezime" placeholder="npr. Horvat">
+
+						<label for="grad">Grad:</label>
+						<select id="grad" name="grad">
+							<option value="rijeka">Rijeka</option>
+							<option value="zagreb">Zagreb</option>
+							<option value="split">Split</option>
+							<option value="osijek">Osijek</option>
+						</select>
+
+						<label for="poruka">Vaša poruka:</label>
+						<textarea id="poruka" name="poruka" placeholder="npr. Stranica je super." style="height:200px"></textarea>
+
+						<input type="submit" value="Pošalji">
+						</form>
+</div>
+		</div>
+  </body>
+
+</html>

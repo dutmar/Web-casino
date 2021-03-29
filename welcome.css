@@ -1,0 +1,9 @@
+input {
+    height: 150;
+    width: 300;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    color: red;
+    background-color: black;
+}

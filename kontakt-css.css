@@ -1,0 +1,64 @@
+body {
+	background-image: url("kontakt-pozadina2.jpg");
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-style: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.glavni-ekran { /* sirina gumba zaigraj*/
+	font-size: 15px;
+    width: 10%;
+	height: 5%;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	cursor: pointer; /* vrsta miša */
+	transition-duration: 0.4s;
+}
+
+glavni-ekran:hover {
+  background-color: black; /* pozadina gumba na hover */
+  color: white; /* boja slova na hover */
+  border: 2px solid red;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+	background-color: red;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+	color: white;
+}
+
+.container {
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+h3{
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 0px 2px black, -2px 0px 2px black, 0px 2px 2px black, 0px -2px 2px black;
+}

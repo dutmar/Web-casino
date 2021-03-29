@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+	background-size: cover;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-style:justify;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+.glavni-ekran { /* sirina gumba zaigraj*/
+	font-size: 15px;
+    width: 10%;
+	height: 5%;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	cursor: pointer; /* vrsta miša */
+	transition-duration: 0.4s;
+}
+
+glavni-ekran:hover {
+  background-color: black; /* pozadina gumba na hover */
+  color: white; /* boja slova na hover */
+  border: 2px solid red;
+}
